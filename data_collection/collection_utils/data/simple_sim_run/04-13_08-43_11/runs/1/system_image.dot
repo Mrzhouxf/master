@@ -1,0 +1,43 @@
+strict graph "" {
+	graph [bb="0,0,2385,75"];
+	node [label="\N",
+		style=filled
+	];
+	"A53_pe_19_0_19(pe): ('participant0', 'loop_back'),
+('souurce', 'loop_back'),('siink', 'loop_back')"	[fillcolor=gold,
+		height=0.75,
+		pos="259.5,37.5",
+		width=7.2083];
+	"LMEM_ic_2_1_ic_20_sr1_20(ic): ('participant0', 'wr
+ite'),('participant0', 'read'),('souurce', 'write'
+),('siink', 'read')"	[fillcolor=white,
+		height=1.0417,
+		pos="857.5,37.5",
+		width=7.4028];
+	"A53_pe_19_0_19(pe): ('participant0', 'loop_back'),
+('souurce', 'loop_back'),('siink', 'loop_back')" -- "LMEM_ic_2_1_ic_20_sr1_20(ic): ('participant0', 'wr
+ite'),('participant0', 'read'),('souurce', 'write'
+),('siink', 'read')"	[pos="519.18,37.5 542.98,37.5 567.12,37.5 590.97,37.5"];
+	"LMEM_ic_2_1_ic_21_sr2_21(ic): ('participant0', 'wr
+ite'),('participant0', 'read'),('souurce', 'write'
+),('siink', 'read')"	[fillcolor=white,
+		height=1.0417,
+		pos="1462.5,37.5",
+		width=7.4028];
+	"LMEM_ic_2_1_ic_20_sr1_20(ic): ('participant0', 'wr
+ite'),('participant0', 'read'),('souurce', 'write'
+),('siink', 'read')" -- "LMEM_ic_2_1_ic_21_sr2_21(ic): ('participant0', 'wr
+ite'),('participant0', 'read'),('souurce', 'write'
+),('siink', 'read')"	[pos="1124.2,37.5 1147.9,37.5 1172,37.5 1195.8,37.5"];
+	"LMEM_2_1_mem_22_ta10_22(mem): ('participant0', 'wr
+ite'),('participant0', 'read'),('souurce', 'write'
+),('siink', 'read')"	[fillcolor=cyan3,
+		height=1.0417,
+		pos="2093,37.5",
+		width=8.1111];
+	"LMEM_ic_2_1_ic_21_sr2_21(ic): ('participant0', 'wr
+ite'),('participant0', 'read'),('souurce', 'write'
+),('siink', 'read')" -- "LMEM_2_1_mem_22_ta10_22(mem): ('participant0', 'wr
+ite'),('participant0', 'read'),('souurce', 'write'
+),('siink', 'read')"	[pos="1729.4,37.5 1753,37.5 1777,37.5 1800.8,37.5"];
+}
